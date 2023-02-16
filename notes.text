@@ -1,0 +1,21 @@
+data types
+there are 8 types of data 
+1. Numbers :The number type represents both integer and floating point numbers. here it includes numbers, integers,NaN(NaN**0=1),Infinity,BigInt
+method num.toString(base) is used to convert number to string with respective base. base varies from 2 to 36.
+base=16 is used for hex colors, character encodings etc, digits can be 0..9 or A..F.
+
+base=2 is mostly for debugging bitwise operations, digits can be 0 or 1.
+
+base=36 is the maximum, digits can be 0..9 or A..Z. The whole latin alphabet is used to represent a number. 
+A funny, but useful case for 36 is when we need to turn a long numeric identifier into something shorter,
+ for example to make a short url. Can simply represent it in the numeral system with base 36
+
+ Rounding:
+ Math.floor
+Rounds down: 3.1 becomes 3, and -1.1 becomes -2.
+Math.ceil
+Rounds up: 3.1 becomes 4, and -1.1 becomes -1.
+Math.round
+Rounds to the nearest integer: 3.1 becomes 3, 3.6 becomes 4, the middle case: 3.5 rounds up to 4 too.
+Math.trunc (not supported by Internet Explorer)
+Removes anything after the decimal point without rounding: 3.1 becomes 3, -1.1 becomes -1.
